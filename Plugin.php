@@ -2,7 +2,7 @@
 if (!defined('__TYPECHO_ROOT_DIR__')) exit;
 
 /**
- * 配合自定义字段功能实现指定内容仅注册会员可读。
+ * 全站登录可见。建议改掉 admin 地址以免爆破。同时启用 TLS。
  * 
  * @package Private
  * @author Pluveto
